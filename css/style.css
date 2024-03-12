@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+	font-family: Lato;
+	color: #424551;
+	line-height: 26px;
+}
+h1{
+	color: #1E212c;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+	
+}
+h3{ 
+	color: #1e212c;
+	font-size: 28px;
+	font-weight: 700;
+    line-height: 42px;
+	padding-top: 45px;
+	padding-bottom: 24px;
+}
+h6{
+	color: #1e212c;
+	font-size: 16px;
+	font-weight: 700;
+    line-height: 24px;
+	padding-top: 180px;
+}
+p{
+	padding-top: 40px;
+}
+[class*=page__container]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.check{
+	padding-left: 30px;
+	min-height: 24px;
+	background:url(../img/icons/check.svg) 0 6px no-repeat ;
+}
+.page__container{
+	margin-top: 120px ;
+	padding-right: 612px;
+}
+.page__container1{
+	padding-left: 612px;
+}
+.title{
+	padding-top: 16px;
+}
+.title__down{
+	padding-top: 16px;
+	padding-bottom: 32px;
+}
+.img1{
+	padding-left: 32px;
+	padding-bottom: 4px;
+	background: url(../img/icons/Star.svg) 0 4px no-repeat;
+}
+.img2{
+	padding-left: 32px;
+	padding-bottom: 4px;
+	background: url(../img/icons/Play.svg) 0 4px no-repeat;
+}
+.img3{
+	padding-left: 32px;
+	padding-bottom: 4px;
+    background: url(../img/icons/Person.svg) 0 4px no-repeat;
+} 
+
+/* ============================================ */
+.homework__container{
+	max-width: 1500px;
+	margin: 100px auto;
+	height: 900px;
+	background: rgba(31, 2, 1, 0.705) url(../img/papir.png) no-repeat center;
+}
+
+.titlehome {
+	padding-top: 260px;
+	padding-bottom: 45px;
+	font-family: Pacifico;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: #5e1f0fc2 3px 3px 3px;
+}
+.text1 {
+	font-family: Lato, cursive;
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+}
+a:visited{
+	color: rgba(255, 51, 0, 0.877);
+}
+ul li {
+	padding-left: 50px;
+}
+
+ul ul{
+	display: none;
+}
+ul li:hover ul {
+	display: block;
+}
+a:hover{
+	color: green;
+}
